@@ -3,7 +3,7 @@ function validateLogin() {
     const password = document.getElementById('password').value;
     const errorElement = document.getElementById('login-error');
 
-    if (username === 'grishma' && password === '0918') {
+    if (username === 'suman' && password === '1235') {
         window.location.href = 'home.html';
         return false;
     } else {
